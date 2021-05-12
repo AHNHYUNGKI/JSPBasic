@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<!-- form태그안에 테이블태그를 넣고 입력양식을 이용해서 예시화면을 작성합니다. -->
+	<form>
+	<h2> Employees 정보 </h2>
+	
+		<table>
+			<tr align="left">
+				<th>사원번호:</th>
+				<th><input type="text" name="emp"></th>
+			</tr>
+			<tr align="left">
+				<th>이름:</th>
+				<th><input type="text" name="name"></th>
+			</tr>
+			<tr align="left">
+				<th>성별:</th>
+				<th>
+					<input type="radio" name="gender">남자
+					<input type="radio" name="gender">여자
+				</th>
+			</tr>
+			<tr align="left">
+				<th>직업:</th>
+				<th><input type="text" name="job"></th>
+			</tr>
+			<tr align="left">
+				<th>상사:</th>
+				<th>
+					<select name="region">
+						<option>7369</option>
+						<option>7370</option>
+						<option>7371</option>
+					</select>
+				</th>
+			</tr>
+			<tr align="left">
+				<th>입사일:</th>
+				<th><input type="text" name="hiredate" placeholder="2012-01-01"></th>
+			</tr>
+			<tr align="left">
+				<th>급여:</th>
+				<th><input type="text" name="salary"></th>
+			</tr>
+			<tr align="left">
+				<th>커미션:</th>
+				<th><input type="text" name="cmt"></th>
+			</tr>
+			<tr align="left">
+				<th>부서번호</th>
+				<th>
+					<select name="region">
+						<option>10 ACCOUNTING NEWYORK</option>
+				
+					</select>
+				</th>
+			</tr>
+			<tr>
+				<th colspan="2">
+					<input type="submit" value="저장">
+					<input type="reset" value="취소">
+				</th>
+			</tr>
+	
+	
+	
+	
+	
+		</table>
+		
+	</form>
+
+</body>
+</html>
